@@ -1,0 +1,19 @@
+# Credenciales y tokens de Google: nunca subirlos
+credentials.json
+client_secret_*.json
+token*.json
+
+# Configuración personal (empresas, dominios): usa config_ejemplo.py como plantilla
+config_personal.py
+
+# Datos del correo y reportes generados
+datos/
+logs/
+reporte.html
+resumen.html
+remitentes.csv
+
+# Python
+.venv/
+__pycache__/
+*.pyc
